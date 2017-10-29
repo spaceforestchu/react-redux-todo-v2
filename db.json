@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "id": 2,
+      "name": "start server",
+      "isComplete": true
+    },
+    {
+      "id": 4,
+      "name": "Add records",
+      "isComplete": true
+    },
+    {
+      "id": 5,
+      "name": "update records",
+      "isComplete": true
+    },
+    {
+      "name": "Clean butt",
+      "isComplete": true,
+      "id": 6
+    },
+    {
+      "name": "Make breakfast",
+      "isComplete": true,
+      "id": 7
+    },
+    {
+      "name": "Walk dog",
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "name": "Wipe dog's butt",
+      "isComplete": false,
+      "id": 9
+    },
+    {
+      "name": "Eat grass",
+      "isComplete": false,
+      "id": 10
+    }
+  ]
+}
