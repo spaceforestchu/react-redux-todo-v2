@@ -6,6 +6,17 @@ const initState = {
   currentTodo: ''
 }
 
+export const getVisibleTodos = (todos, filter) => {
+  switch(filter) {
+    case 'active':
+      return todos.filter(t => !t.isComplete)
+    case 'completed':
+      return todos.filter(t => t.isComplete)
+    default:
+      return todos
+  }
+}
+
 export const TODO_REMOVE = 'TODO_REMOVE';
 export const TODO_REPLACE = 'TODO_REPLACE';
 export const TODO_ADD = 'TODO_ADD';
